@@ -31,6 +31,10 @@ setTimeout(function () {
  setTimeout(function () {
            document.body.innerHTML = `<h1>Happy Independence Day </h1>`
            document.body.style.backgroundColor = "yellow"
+           let a = document.createElement("img")
+           a.setAttribute("src","https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg")
+           document.body.append(a)
+
 
          }, 1000)
          }, 1000)
